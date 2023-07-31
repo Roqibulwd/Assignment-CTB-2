@@ -1,0 +1,170 @@
+body {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/***** header Area ****/
+
+.header-section {
+    padding-top: 20px;
+    background-color: #37517e;
+}
+
+.logo-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.main-menu ul{
+  float: right;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.main-menu ul li:hover a {
+    color: #45a5d7;
+}
+
+.getstarted{
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #47b2e4;
+    font-weight: 600;
+}
+
+/* hero section started */
+
+.hero {
+    padding: 100px 0;
+    background-color: #37517e;
+    color: white;
+}
+.hero .hero1 {
+    padding: 100px 0;
+}
+.hero h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.hero p {
+    font-size: 25px;
+    color: rgb(195, 195, 195);
+}
+.hero .btn1 {
+    background-color: #47b2e4;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+}
+.hero .btn2 {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.hero .btn2 i {
+    font-size: 32px;
+    margin-right: 10px;
+   
+}
+
+/* Hero Section End */
+
+
+/* client section stared */
+
+.client {
+    padding: 40px 0;
+    background-color: #f3f5fa;
+}
+.client img {
+    width: 60%;
+    filter: grayscale(100);
+    transition: all 0.4s;
+}
+.client img:hover {
+    filter: none;
+    transform: scale(1.1)
+}
+
+/***************************** About section Start */
+
+.about {
+    padding: 40px 0;
+}
+.about h2 {
+    text-align: center;
+    color: #37517e;
+    padding: 30px 0;
+}
+.about p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(83, 83, 83);
+}
+.about ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(83, 83, 83);
+}
+.about ul li i {
+    color: #58b2e6;
+    margin-right: 10px;
+}
+.about .col {
+    padding: 20px;
+}
+.about a {
+    border: 2px solid #45a5d7;
+    border-radius: 5px;
+    padding: 11px 28px;
+    font-size: 16px;
+    color: #45a5d7;
+    transition: 0.5s;
+    
+}
+.about a:hover{
+    background-color: #45a5d7;
+    color: white;
+}
+
+/***** About Section END ****/
+
+/**** why us section start ******/
+.why-us {
+    padding: 50px 0;
+    background-color: #f3f5fa;
+}
+
+.why-us .col2 {
+    background: url(../images/why-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.why-us h3 {
+    color: #37619f;
+    font-size: 35px;
+    word-spacing: 4px;
+    font-weight: 400;
+}
+.why-us span {
+    color: #37517e;
+    font-weight: 600;
+}
+.why-us p {
+    font-weight: 300;
+    font-size: 18px;
+}
