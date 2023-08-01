@@ -6,8 +6,9 @@ body {
 /***** header Area ****/
 
 .header-section {
-    padding-top: 20px;
+    padding: 15px 0;
     background-color: #37517e;
+    z-index: 999;
 }
 
 .logo-section a {
@@ -71,12 +72,17 @@ body {
     color: white;
     margin-left: 20px;
     font-size: 20px;
+    
 }
 
 .hero .btn2 i {
     font-size: 32px;
     margin-right: 10px;
+    transition: 0.5s;
    
+}
+.hero .btn2:hover i {
+    color: #47b2e4;
 }
 
 /* Hero Section End */
@@ -168,3 +174,159 @@ body {
     font-weight: 300;
     font-size: 18px;
 }
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    color: #53b2e4;
+    /* margin-right: -26px; */
+    font-size: 18px;
+}
+.acordion span {
+    margin-left: 15px;
+    font-weight: 400;
+}
+/* why us section end */
+
+/*************** skill  *************/
+
+.skill {
+    padding: 80px 0;
+}
+.skill h4 {
+    color: #37517e;
+    font-weight: 600;
+    font-size: 34px;
+}
+.skill p {
+    font-family: italic;
+    font-size: 20px;
+}
+.progressdiv p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #052151;
+    margin: 0;
+}
+.progress, .progress-stacked {
+    --bs-progress-height: 1rem;
+    --bs-progress-font-size: 0.75rem;
+    --bs-progress-bg: var(--bs-secondary-bg);
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #2f60a7;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    /* border-radius: var(--bs-progress-border-radius); */
+    border: 0;
+}
+.progress {
+    border-radius: 1px;
+}
+.progress-bar {
+    background-color: #2f60a7;;
+}
+
+/********* skill End *****/
+
+/******** Services section start ******/
+.services {
+    padding: 40px 0;
+    background-color: #f3f5fa;
+}
+.services h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #37517e;
+    font-weight: 600;
+}
+.services .service-content {
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+}
+.service-col {
+    transition: 1s;
+    
+}
+.icon-box {
+    margin: 1px;
+    background-color: white;
+    padding: 40px 30px;
+    box-shadow: 1px 10px 50px #cccccc;
+}
+.icon-box i {
+    color: #1080b4;
+    font-size: 30px;
+}
+.icon-box h4 {
+    line-height: 3rem;
+    color: #1080b4;
+}
+.service-col:hover {
+    transform: scale(1.1)
+}
+
+
+/****** Services Section End *****/
+
+/***** Call to action section start ***/
+
+.call-to-action {
+            background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../images/cta-bg.jpg") fixed center center;
+        background-size: cover;
+        padding: 120px 0;
+}
+.call-to-action h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.call-to-action p {
+    color: white;
+}
+.call-to-action .btn {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+.call-to-action .btn:hover {
+    background-color: #54b7e6;
+    color: white;
+    border: 1px solid #54b7e6;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.call-to-action .col2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/***** call to action End ****/
+
+/**** portfolio started *****/
+
+.portfolio {
+    padding: 70px 0;
+}
+.portfolio h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #37517e;
+    font-weight: 600;
+}
+.portfolio p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/***** portfolio END
